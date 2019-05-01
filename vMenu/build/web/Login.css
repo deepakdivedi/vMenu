@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+/* The "Sign Up" button */
+.button {
+    background-color: #2BC1F2;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+html { 
+  background: url(Login.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

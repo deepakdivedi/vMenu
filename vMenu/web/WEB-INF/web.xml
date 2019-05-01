@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+
+    <servlet>
+        <servlet-name>validate_admin</servlet-name>
+        <servlet-class>validate_admin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>validate_customer</servlet-name>
+        <servlet-class>validate_customer</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>validate_staff</servlet-name>
+        <servlet-class>validate_staff</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>update_staff</servlet-name>
+        <servlet-class>update_staff</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>update_menu</servlet-name>
+        <servlet-class>update_menu</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NewServlet</servlet-name>
+        <servlet-class>NewServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>validate_admin</servlet-name>
+        <url-pattern>/validate_admin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>validate_customer</servlet-name>
+        <url-pattern>/validate_customer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>validate_staff</servlet-name>
+        <url-pattern>/validate_staff</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>update_staff</servlet-name>
+        <url-pattern>/update_staff</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>update_menu</servlet-name>
+        <url-pattern>/update_menu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NewServlet</servlet-name>
+        <url-pattern>/NewServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
